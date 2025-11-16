@@ -1,24 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>CRUD Produtos</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+ <div class="topo">
+    <img src="Images/logo.jpg" alt="Logo" class="logo">
+    <h1>CRUD de Produtos</h1>
+</div>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-    <h1>CRUD de Produtos</h1>
-
-    <div class="form">
-        <input id="nome" type="text" placeholder="Nome do produto">
-        <input id="preco" type="number" placeholder="Preço">
-        <button onclick="criarProduto()">Adicionar Produto</button>
+  <header class="topbar">
+    <div class="brand">
+      <h1>CRUD Produtos</h1>
+      <p class="tag">API .NET  ➜ Frontend moderno</p>
     </div>
 
-    <h2>Lista de Produtos</h2>
-    <div id="lista"></div>
+    <div class="actions">
+      <button id="themeToggle" aria-label="Alternar tema">🌙</button>
+    </div>
+  </header>
 
-    <script src="script.js"></script>
+  <main class="container">
+    <section class="card form-card" aria-labelledby="formTitle">
+      <div class="card-header">
+        <h2 id="formTitle">Adicionar produto</h2>
+        <span class="sub">Insira nome e preço — rápido e simples</span>
+      </div>
+
+      <form id="productForm" class="form" autocomplete="off">
+        <div class="inputs">
+          <label class="input-group">
+            <span class="label">Nome</span>
+            <input id="nome" type="text" placeholder="Ex: Teclado mecânico" required />
+          </label>
+
+          <label class="input-group">
+            <span class="label">Preço (R$)</span>
+            <input id="preco" type="number" step="0.01" min="0" placeholder="Ex: 199.90" required />
+          </label>
+        </div>
+
+        <div class="form-row">
+          <button id="btnAdd" type="submit" class="btn primary">
+            <span class="btn-text">Adicionar Produto</span>
+            <span class="spinner" id="addSpinner" aria-hidden="true"></span>
+          </button>
+
+          <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+        </div>
+      </form>
+    </section>
+
+    <section class="card list-card" aria-labelledby="listTitle">
+      <div class="card-header">
+        <h2 id="listTitle">Lista de produtos</h2>
+        <span class="sub" id="countLabel">Carregando...</span>
+      </div>
+
+      <div id="lista" class="lista"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Projeto demo by Vitor • .NET 9 + EF Core + SQLite • Frontend vanilla</small>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
