@@ -5,7 +5,7 @@
 namespace CrudProdutos.Migrations
 {
     /// <inheritdoc />
-    public partial class CriarBanco : Migration
+    public partial class CriarProdutos : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

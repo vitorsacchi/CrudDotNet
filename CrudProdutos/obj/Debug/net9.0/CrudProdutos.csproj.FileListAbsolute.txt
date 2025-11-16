@@ -154,3 +154,14 @@ D:\dotnet estudo\crudtest\CrudProdutos\obj\Debug\net9.0\ref\CrudProdutos.dll
 D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\dotnet estudo\crudtest\CrudProdutos\obj\Debug\net9.0\CrudProdutos.sourcelink.json
+D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\out\web.config
+D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\out\appsettings.Development.json
+D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\out\appsettings.json
+D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\out\CrudProdutos.deps.json
+D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\out\CrudProdutos.runtimeconfig.json
+D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\out\CrudProdutos.staticwebassets.endpoints.json
+D:\dotnet estudo\crudtest\CrudProdutos\bin\Debug\net9.0\CrudProdutos.staticwebassets.runtime.json
+D:\dotnet estudo\crudtest\CrudProdutos\obj\Debug\net9.0\compressed\h4wx7bhm4s-25znnpd32a.gz
+D:\dotnet estudo\crudtest\CrudProdutos\obj\Debug\net9.0\compressed\drgm23qxru-i363hklp9p.gz
+D:\dotnet estudo\crudtest\CrudProdutos\obj\Debug\net9.0\compressed\m13riqrvnl-lfcp9ymhv6.gz

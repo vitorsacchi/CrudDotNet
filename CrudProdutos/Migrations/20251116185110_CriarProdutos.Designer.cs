@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrudProdutos.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251101172354_CriarBanco")]
-    partial class CriarBanco
+    [Migration("20251116185110_CriarProdutos")]
+    partial class CriarProdutos
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

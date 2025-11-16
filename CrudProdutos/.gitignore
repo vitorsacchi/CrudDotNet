@@ -1,0 +1,24 @@
+# Build e pasta de saída
+bin/
+obj/
+out/
+
+# Banco local
+*.db
+*.sqlite
+
+# Arquivos temporários do Visual Studio
+*.user
+*.suo
+*.pdb
+*.cache
+
+# Arquivos de publish
+*.dll
+*.exe
+*.runtimeconfig.json
+*.deps.json
+*.staticwebassets.*
+
+# Outros
+.vscode/
